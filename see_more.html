@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass-header { 
+            background: rgba(255, 255, 255, 0.8); 
+            backdrop-filter: blur(12px);         
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .filter-btn.active {
+            background-color: #2563eb;
+            color: white;
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="fixed w-full z-[100] glass-header border-b border-slate-200/50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- FIX UTAMA: Ditambahkan z-[9999] dan pointer-events-auto secara paksa -->
+                    <a href="index.html" class="bg-blue-50 text-blue-600 px-4 py-2 rounded-xl text-sm font-bold hover:bg-blue-100 transition-all border border-blue-100">
+                        Halaman Utama
+                    </a> 
+                    <div class="flex items-center space-x-2 mb-6">
+                        <img src="Photo-profil.png" class="w-8 h-8 bg-white rounded-lg flex items-center">
+                        <span class="text-xl font-bold tracking-tighter text-blue-500">ARCHIVE</span>
+                    </div>
+        </div>
+    </nav>
+
+
+    <header class="pt-32 pb-16 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-black text-slate-900 mb-6">Complete Collection  <span class="text-blue-600">of Works</span></h1>
+            <p class="max-w-2xl mx-auto text-slate-500 leading-relaxed">
+                Welcome to a curated compilation of graphic design projects, visual identities, and creative experiments developed from 2020 to the present.
+            </p>
+        </div>
+    </header>
+
+    <section class="pb-12 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-wrap justify-center gap-3 mb-12">
+                <button class="filter-btn px-6 py-2.5 rounded-full border border-slate-200 font-bold text-sm transition-all hover:border-blue-600 bg-white">Semua Karya</button>
+                <button class="filter-btn px-6 py-2.5 rounded-full border border-slate-200 font-bold text-sm transition-all hover:border-blue-600 bg-white">Branding</button>
+                <button class="filter-btn px-6 py-2.5 rounded-full border border-slate-200 font-bold text-sm transition-all hover:border-blue-600 bg-white">Social Media</button>
+                <button class="filter-btn px-6 py-2.5 rounded-full border border-slate-200 font-bold text-sm transition-all hover:border-blue-600 bg-white">UI/UX</button>
+                <button class="filter-btn px-6 py-2.5 rounded-full border border-slate-200 font-bold text-sm transition-all hover:border-blue-600 bg-white">Illustration</button>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Project Item 1 -->
+                <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (22).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Logo Design</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">KONFERANCAB</h3>
+                    </div>
+                </div>
+
+                <!-- Project Item 2 -->
+                <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (1).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Logo Design</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">LAKMUD</h3>
+                    </div>
+                </div>
+
+                <!-- Project Item 3 -->
+                <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (21).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Flayer</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Branding</h3>
+                    </div>
+                </div>
+
+                <!-- Project Item 4 -->
+                <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (20).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Stage</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Event Organizer</h3>
+                    </div>
+                </div>
+
+                <!-- Project Item 5 (Duplicate for layout visualization) -->
+                <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (19).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Flayer</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Branding</h3>
+                    </div>
+                </div>
+
+                <!-- Project Item 6 -->
+                <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (18).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">E-Raport</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Raport Digital</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (17).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Flayer</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Event Branding</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (16).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Flayer</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Infografis</h3>
+                    </div>
+                </div>
+
+              <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (30).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Packeging</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Matcha Mochi</h3>
+                    </div>
+                </div>
+
+               <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (29).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Packeging</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Doyan Sambal</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (28).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Kaos</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Kaos Jearsy</h3>
+                    </div>
+                </div>
+
+               <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (27).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Design</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Design Kaos</h3>
+                    </div>
+                </div>
+
+               <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (26).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Label</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Peyek Mak Sri</h3>
+                    </div>
+                </div>
+
+               <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (25).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Booth</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Es Teler Sultan</h3>
+                    </div>
+                </div>
+
+              <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (24).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Buku Menu</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Teras Seblak</h3>
+                    </div>
+                </div>
+
+                <div class="group bg-white p-4 rounded-[2rem] border border-slate-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                    <div class="overflow-hidden rounded-[1.5rem] mb-4 aspect-square bg-slate-100 relative">
+                        <img src="Editing/Editing (23).jpg" alt="Project" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Label</span>
+                        <h3 class="font-bold text-lg text-slate-800 mt-1">Kulit Ayam Crispy</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20 text-center">
+                <button class="inline-flex items-center gap-3 bg-slate-900 text-white px-10 py-4 rounded-2xl font-bold hover:bg-blue-600 transition shadow-xl">
+                    Muat Lebih Banyak <i data-lucide="refresh-cw" class="w-4"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <header class="pt-32 pb-16 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-black text-slate-900 mb-6">Doakan Banyak Proyekan <span class="text-blue-600">supaya porto saya full</span></h1>
+            </p>
+        </div>
+    </header></section>
+
+<footer id="kontak" class="bg-slate-950 text-white pt-24 pb-12 px-6 overflow-hidden relative">
+        <!-- Dekorasi Latar Belakang -->
+        <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[120px]"></div>
+        
+        <div class="max-w-7xl mx-auto">
+            <!-- Top Footer: CTA Card -->
+            <div class="bg-blue-600 rounded-[3rem] p-8 md:p-16 mb-24 flex flex-col md:flex-row items-center justify-between relative z-10 shadow-2xl shadow-blue-900/20">
+                <div class="max-w-xl text-center md:text-left">
+                    <h2 class="text-3xl md:text-5xl font-extrabold leading-tight mb-4 text-white">
+                        Punya ide keren yang ingin diwujudkan?
+                    </h2>
+                    <p class="text-blue-100 text-lg opacity-90">
+                        Mari ngobrol santai dan buat desain yang berdampak bagi audiens Anda.
+                    </p>
+                </div>
+                <div class="mt-8 md:mt-0 flex flex-col sm:flex-row gap-4">
+                    <a href="https://api.whatsapp.com/send/?phone=6285895781471&text=Halo%20Admin%2C%20saya%20tertarik%20dengan%20layanan%20Anda.%20Boleh%20saya%20tahu%20lebih%20lanjut%20mengenai%20program%20layanan%20yang%20tersedia%3F&type=phone_number&app_absent=0" class="bg-white text-blue-600 px-8 py-4 rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-slate-100 transition shadow-xl">
+                        <i data-lucide="phone-call" class="w-5"></i> WhatsApp Saya
+                    </a>
+                </div>
+            </div>
+
+            <section id="video" class="scroll-mt-5 bg-blue-600 py-16 px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="text-center max-w-2xl mx-auto mb-12">
+                        <h3 class="text-3xl font-bold text-white">Videography & Motion Content</h3>
+                        <p class="text-white mt-3">Handling the entire creative process from behind the camera to the final cut—capturing high-quality footage and transforming it into compelling visual stories.</p>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        
+                        <a href="https://drive.google.com/file/d/1Sg_DgPSqtuUZ_zMoaAf_my4YPVjk8wRI/view?usp=sharing" 
+                        target="_blank" 
+                        class="group rounded-xl overflow-hidden aspect-video bg-blue-800 shadow-2xl relative block cursor-pointer transition-transform duration-300 hover:scale-[1.02]">
+                            <img src="img/cover-video1.jpg" alt="Cover Video 1" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/10 transition-colors">
+                                <div class="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/50 group-hover:scale-110 transition-transform">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6 text-white ml-1">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a href="https://drive.google.com/file/d/1Sg_DgPSqtuUZ_zMoaAf_my4YPVjk8wRI/view?usp=sharing" 
+                        target="_blank" 
+                        class="group rounded-3xl overflow-hidden aspect-video bg-blue-800 shadow-2xl relative block cursor-pointer transition-transform duration-300 hover:scale-[1.02]">
+                            <img src="img/cover-video2.jpg" alt="Cover Video 2" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/10 transition-colors">
+                                <div class="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/50 group-hover:scale-110 transition-transform">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6 text-white ml-1">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://drive.google.com/file/d/1Qva39MtZfaVRk5GvBxCbpRAI0_f-kk4D/view?usp=drive_link" 
+                        target="_blank" 
+                        class="group rounded-3xl overflow-hidden aspect-video bg-blue-800 shadow-2xl relative block cursor-pointer transition-transform duration-300 hover:scale-[1.02]">
+                            <img src="img/cover-video3.jpg" alt="Cover Video 3" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/10 transition-colors">
+                                <div class="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/50 group-hover:scale-110 transition-transform">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6 text-white ml-1">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+
+                <!-- Col 2: Navigation -->
+                <div>
+                    <h4 class="font-bold text-lg mb-6">Navigasi</h4>
+                    <ul class="space-y-4 text-slate-400 text-sm">
+                        <li><a href="#profil" class="hover:text-blue-500 transition">Tentang Saya</a></li>
+                        <li><a href="#desain" class="hover:text-blue-500 transition">Karya Desain</a></li>
+                        <li><a href="#video" class="hover:text-blue-500 transition">Showreel Video</a></li>
+                        <li><a href="#seminar" class="hover:text-blue-500 transition">Seminar & Workshop</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Services -->
+                <div>
+                    <h4 class="font-bold text-lg mb-6">Layanan</h4>
+                    <ul class="space-y-4 text-slate-400 text-sm">
+                        <li><a href="#" class="hover:text-blue-500 transition">Logo & Branding</a></li>
+                        <li><a href="#" class="hover:text-blue-500 transition">Social Media Management</a></li>
+                        <li><a href="#" class="hover:text-blue-500 transition">Graphic Design E-Course</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contact Info -->
+                <div>
+                    <h4 class="font-bold text-lg mb-6">Kontak</h4>
+                    <ul class="space-y-4 text-slate-400 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="mail" class="w-5 text-blue-500"></i>
+                            <span>hsansan048@gmail.com</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="map-pin" class="w-5 text-blue-500"></i>
+                            <span>Karangsuko, Pagelaran, Malang, Indonesia</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="clock" class="w-5 text-blue-500"></i>
+                            <span>Setiap Hari: 09:00 - 17:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Footer: Copyright -->
+            <div class="pt-12 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs">
+                <p>&copy; Designed & Crafted with ❤️<span class="text-white font-medium"> By San </span>2026.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="privacy.html" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="tos.html" class="hover:text-white transition">Terms of Service</a>
+                    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="flex items-center gap-2 hover:text-blue-500 transition font-bold uppercase tracking-widest">
+                        Kembali Ke Atas <i data-lucide="chevron-up" class="w-4"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        // Simple Filter Logic (Visual Only)
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active', 'bg-blue-600', 'text-white'));
+                filterBtns.forEach(b => b.classList.add('bg-white'));
+                btn.classList.add('active');
+                btn.classList.remove('bg-white');
+            });
+        });
+    </script>
+</body>
+</html>
